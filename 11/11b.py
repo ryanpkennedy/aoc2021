@@ -83,11 +83,11 @@ def printMap():
 for _ in range(1000):
     flashSet = set()
     incrementAll()
-    print('after step', _+1)
+    # print('after step', _+1)
     runFlashes()
     cleanup()
-    printMap()
-    print('\n')
+    # printMap()
+    # print('\n')
     if len(flashSet) == 100:
         print('round:', _ + 1)
         exit()
